@@ -1,10 +1,32 @@
 <html>
+    <style>
+        @media only screen and (max-width: 600px) {
+            body {
+                background-color: cyan;
+            }
+        }
+            nav {
+                position: fixed;
+            }
+    </style>
     <main>
         <head>
-
+            <section id="welcome-section">
+                <h1>Welcome to my portfolio</h1>
+                <nav id="navbar">
+                 <a id="profile-link" href="#projects">Projects</a>
+                </nav>
+            </section>
         </head>
         <body>
-            
+            <section id="projects">
+                <div id="profile-link">
+                    <a href="https://github.com/rsurge" target="_blank">Profile link</a>
+                </div>
+                <div class="project-tile">
+                    <a href="https://github.com/rsurge/Kobe-Bryant-Tribute-Page">Tribute Page</a>
+                </div>
+            </section>
         </body>
     </main>
 </html>
