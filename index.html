@@ -5,23 +5,29 @@
                 background-color: cyan;
             }
         }
-            nav {
-                position: fixed;
-            }
+        #navbar {
+            position: fixed;
+            top: 0px;
+            width: 100%;
+        }
+        #welcome-section {
+            text-align: center;
+            height: 100vh;
+        }
     </style>
     <main>
         <head>
             <section id="welcome-section">
                 <h1>Welcome to my portfolio</h1>
-                <nav id="navbar">
-                 <a id="profile-link" href="#projects">Projects</a>
-                </nav>
             </section>
         </head>
         <body>
+            <nav id="navbar">
+                <a href="#projects">Projects</a>
+            </nav>
             <section id="projects">
-                <div id="profile-link">
-                    <a href="https://github.com/rsurge" target="_blank">Profile link</a>
+                <div>
+                    <a id="profile-link" href="https://github.com/rsurge" target="_blank">Link to Profile</a>
                 </div>
                 <div class="project-tile">
                     <a href="https://github.com/rsurge/Kobe-Bryant-Tribute-Page">Tribute Page</a>
